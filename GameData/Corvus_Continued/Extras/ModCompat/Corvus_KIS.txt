@@ -1,0 +1,12 @@
+//Patch not needed.
+
+Corvus_Exterior
+
+
+MODULE
+{
+	name = KASModuleContainer
+	maxSize = 10
+}
+
+!MODULE[KASModuleContainer]{}

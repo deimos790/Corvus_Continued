@@ -1,0 +1,17 @@
+//This patch makes the NoseCone docking port passable.
+@PART[Corvus_Nose]:NEEDS[Corvus]:LAST
+{
+  @MODULE[ModuleDockingNode]
+  {
+  	@nodeType = size0, size1
+  }
+}
+
+//CLS passable
+@PART[Corvus_Nose]:HAS[@MODULE[ModuleConnectedLivingSpace]]:NEEDS[Corvus&ConnectedLivingSpace]:LAST
+{
+    @MODULE[ModuleConnectedLivingSpace]
+    {
+        @passable = true
+    }
+}

@@ -1,0 +1,5 @@
+//In case there are any non-module = Parts out there in the mod.
+@PART[*]:HAS[~module[Part],#author[Orion*]]:NEEDS[Corvus]
+{
+  @module = Part
+}
